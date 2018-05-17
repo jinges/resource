@@ -19,6 +19,10 @@ class QuestionController{
     // }
     return questionService.createQuestion(params);
   }
+
+  async ad(){
+    
+  }
 }
 
 export default new QuestionController()
